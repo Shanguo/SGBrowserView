@@ -13,10 +13,7 @@
 示例展示 Demo
 ==============
 
-<img src="READMEIMAGES/弹出缩放View1.gif" width="200">
-<img src="READMEIMAGES/弹出缩放View2.gif" width="200">
-<img src="READMEIMAGES/弹出移动View1.gif" width="200">
-<img src="READMEIMAGES/弹出移动View2.gif" width="200">
+<img src="READMEIMAGES/弹出缩放View1.gif" width="200">  <img src="READMEIMAGES/弹出缩放View2.gif" width="200">  <img src="READMEIMAGES/弹出移动View1.gif" width="200">  <img src="READMEIMAGES/弹出移动View2.gif" width="200">
 
 使用 Usage
 ==============
