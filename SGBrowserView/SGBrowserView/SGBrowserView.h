@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+/**
+ *  任意自定义的View自己做好约束，都可以使用此组件快速动画弹出。
+ *  用户自己初始化View的初始frame, 弹出隐藏后，自动恢复到View的初始Frame
+ */
+
 @interface SGBrowserView : UIView
 
 
