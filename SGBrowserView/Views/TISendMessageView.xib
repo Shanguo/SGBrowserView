@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TISendMessageView">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="HeR-8D-OcL"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" userLabel="ContentView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g60-8U-hpH">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="149"/>
+                    <subviews>
+                        <view tag="1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VOH-o3-Tev">
+                            <rect key="frame" x="0.0" y="0.0" width="207" height="149"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wechat_share" translatesAutoresizingMaskIntoConstraints="NO" id="Img-ge-yPb">
+                                    <rect key="frame" x="99" y="33" width="60" height="60"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="Img-ge-yPb" secondAttribute="height" multiplier="1:1" id="eLW-XF-fHq"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="微信邀请" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="yhO-N4-iXc">
+                                    <rect key="frame" x="99" y="101" width="60" height="17"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <gestureRecognizers/>
+                            <constraints>
+                                <constraint firstItem="yhO-N4-iXc" firstAttribute="width" secondItem="Img-ge-yPb" secondAttribute="width" id="3FE-nv-5Xh"/>
+                                <constraint firstItem="yhO-N4-iXc" firstAttribute="centerX" secondItem="Img-ge-yPb" secondAttribute="centerX" id="5xr-OD-Dr3"/>
+                                <constraint firstItem="Img-ge-yPb" firstAttribute="centerY" secondItem="VOH-o3-Tev" secondAttribute="centerY" constant="-12" id="Ier-Y2-HFr"/>
+                                <constraint firstItem="Img-ge-yPb" firstAttribute="centerX" secondItem="VOH-o3-Tev" secondAttribute="centerX" constant="25" id="Kmy-La-iIR"/>
+                                <constraint firstItem="Img-ge-yPb" firstAttribute="width" secondItem="VOH-o3-Tev" secondAttribute="width" multiplier="0.289855" id="aAY-ua-GaS"/>
+                                <constraint firstItem="yhO-N4-iXc" firstAttribute="top" secondItem="Img-ge-yPb" secondAttribute="bottom" constant="8" id="q88-Il-CyY"/>
+                            </constraints>
+                            <connections>
+                                <outletCollection property="gestureRecognizers" destination="N35-3D-ACp" appends="YES" id="evs-hy-t0H"/>
+                            </connections>
+                        </view>
+                        <view tag="2" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="83u-0w-UeI">
+                            <rect key="frame" x="207" y="0.0" width="207" height="149"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sms_sharing" translatesAutoresizingMaskIntoConstraints="NO" id="DUf-2d-bu6">
+                                    <rect key="frame" x="49" y="33" width="60" height="60"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="DUf-2d-bu6" secondAttribute="height" multiplier="1:1" id="2b3-W9-yJM"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="短信邀请" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="kmW-ML-AaI">
+                                    <rect key="frame" x="49" y="101" width="60" height="17"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <gestureRecognizers/>
+                            <constraints>
+                                <constraint firstItem="DUf-2d-bu6" firstAttribute="centerX" secondItem="83u-0w-UeI" secondAttribute="centerX" constant="-25" id="8OZ-HL-xr2"/>
+                                <constraint firstItem="kmW-ML-AaI" firstAttribute="top" secondItem="DUf-2d-bu6" secondAttribute="bottom" constant="8" id="92R-2o-HEf"/>
+                                <constraint firstItem="DUf-2d-bu6" firstAttribute="centerY" secondItem="83u-0w-UeI" secondAttribute="centerY" constant="-12" id="Hzn-x1-DTd"/>
+                                <constraint firstItem="DUf-2d-bu6" firstAttribute="width" secondItem="83u-0w-UeI" secondAttribute="width" multiplier="0.289855" id="MrE-Di-Grw"/>
+                                <constraint firstItem="kmW-ML-AaI" firstAttribute="centerX" secondItem="DUf-2d-bu6" secondAttribute="centerX" id="aCC-m9-Y3O"/>
+                                <constraint firstItem="kmW-ML-AaI" firstAttribute="width" secondItem="DUf-2d-bu6" secondAttribute="width" id="yLu-s4-sox"/>
+                            </constraints>
+                            <connections>
+                                <outletCollection property="gestureRecognizers" destination="FiT-28-vBT" appends="YES" id="yz3-Ov-iWg"/>
+                            </connections>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="VOH-o3-Tev" firstAttribute="width" secondItem="g60-8U-hpH" secondAttribute="width" multiplier="0.5" id="7p2-IW-MeO"/>
+                        <constraint firstItem="VOH-o3-Tev" firstAttribute="leading" secondItem="g60-8U-hpH" secondAttribute="leading" id="VI5-yv-7Gs"/>
+                        <constraint firstItem="83u-0w-UeI" firstAttribute="top" secondItem="g60-8U-hpH" secondAttribute="top" id="VfS-av-uMW"/>
+                        <constraint firstAttribute="bottom" secondItem="83u-0w-UeI" secondAttribute="bottom" id="YoU-1e-JZ3"/>
+                        <constraint firstItem="VOH-o3-Tev" firstAttribute="top" secondItem="g60-8U-hpH" secondAttribute="top" id="Zfy-8r-9cR"/>
+                        <constraint firstAttribute="bottom" secondItem="VOH-o3-Tev" secondAttribute="bottom" id="hHD-yo-U9P"/>
+                        <constraint firstItem="83u-0w-UeI" firstAttribute="leading" secondItem="VOH-o3-Tev" secondAttribute="trailing" id="nL6-YH-SsA"/>
+                        <constraint firstAttribute="trailing" secondItem="83u-0w-UeI" secondAttribute="trailing" id="tof-4b-llZ"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1tb-Zw-fR1">
+                    <rect key="frame" x="0.0" y="150" width="414" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="1tb-Zw-fR1" secondAttribute="height" multiplier="207:25" id="jRF-iu-tBS"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="取消">
+                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="cancelBtnClick:" destination="-1" eventType="touchUpInside" id="xF8-q9-Psq"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AlC-t6-LlJ">
+                    <rect key="frame" x="0.0" y="149" width="414" height="1"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="ygK-1A-Ghs"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="AlC-t6-LlJ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="68q-qM-oTJ"/>
+                <constraint firstItem="g60-8U-hpH" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="BdJ-HX-yre"/>
+                <constraint firstAttribute="bottom" secondItem="1tb-Zw-fR1" secondAttribute="bottom" id="VKt-Ub-vY6"/>
+                <constraint firstAttribute="trailing" secondItem="AlC-t6-LlJ" secondAttribute="trailing" id="W5U-eO-DtU"/>
+                <constraint firstAttribute="trailing" secondItem="g60-8U-hpH" secondAttribute="trailing" id="YSL-px-EbP"/>
+                <constraint firstAttribute="trailing" secondItem="1tb-Zw-fR1" secondAttribute="trailing" id="hGz-w3-FOg"/>
+                <constraint firstItem="1tb-Zw-fR1" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="uGb-6R-uWe"/>
+                <constraint firstItem="AlC-t6-LlJ" firstAttribute="top" secondItem="g60-8U-hpH" secondAttribute="bottom" id="ugu-qm-qAA"/>
+                <constraint firstItem="1tb-Zw-fR1" firstAttribute="top" secondItem="AlC-t6-LlJ" secondAttribute="bottom" id="wsB-M0-Ba8"/>
+                <constraint firstItem="g60-8U-hpH" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="zgi-21-9Hl"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+        <tapGestureRecognizer id="N35-3D-ACp">
+            <connections>
+                <action selector="selectTap:" destination="-1" id="v29-th-mlz"/>
+            </connections>
+        </tapGestureRecognizer>
+        <tapGestureRecognizer id="FiT-28-vBT">
+            <connections>
+                <action selector="selectTap:" destination="-1" id="hj3-xk-dwp"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+    <resources>
+        <image name="sms_sharing" width="33" height="33"/>
+        <image name="wechat_share" width="33" height="33"/>
+    </resources>
+</document>

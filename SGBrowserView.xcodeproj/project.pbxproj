@@ -14,6 +14,16 @@
 		85DF9ED820293C070001D896 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85DF9ED620293C070001D896 /* LaunchScreen.storyboard */; };
 		85DF9EDB20293C070001D896 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DF9EDA20293C070001D896 /* main.m */; };
 		85DF9EE520293C070001D896 /* SGBrowserViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DF9EE420293C070001D896 /* SGBrowserViewUITests.m */; };
+		85DF9EF720293D650001D896 /* SGBrowserView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DF9EF620293D650001D896 /* SGBrowserView.m */; };
+		85DF9EFC2029420C0001D896 /* TIInviteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DF9EFA2029420C0001D896 /* TIInviteView.m */; };
+		85DF9EFD2029420C0001D896 /* TIInviteView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85DF9EFB2029420C0001D896 /* TIInviteView.xib */; };
+		85DF9F012029425C0001D896 /* TISendMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DF9EFE2029425C0001D896 /* TISendMessageView.m */; };
+		85DF9F022029425C0001D896 /* TISendMessageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85DF9F002029425C0001D896 /* TISendMessageView.xib */; };
+		85DF9F922029433E0001D896 /* UIButton+SG.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DF9F102029433E0001D896 /* UIButton+SG.m */; };
+		85DF9F932029433E0001D896 /* UIView+SG.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DF9F122029433E0001D896 /* UIView+SG.m */; };
+		85DF9F942029433E0001D896 /* UIView+DefaulFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DF9F152029433E0001D896 /* UIView+DefaulFont.m */; };
+		85DF9FCF20294BBD0001D896 /* TIDeliveryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85DF9FCC20294BBD0001D896 /* TIDeliveryView.xib */; };
+		85DF9FD020294BBD0001D896 /* TIDeliveryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DF9FCE20294BBD0001D896 /* TIDeliveryView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +50,27 @@
 		85DF9EE020293C070001D896 /* SGBrowserViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SGBrowserViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85DF9EE420293C070001D896 /* SGBrowserViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGBrowserViewUITests.m; sourceTree = "<group>"; };
 		85DF9EE620293C070001D896 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85DF9EF520293D650001D896 /* SGBrowserView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGBrowserView.h; sourceTree = "<group>"; };
+		85DF9EF620293D650001D896 /* SGBrowserView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGBrowserView.m; sourceTree = "<group>"; };
+		85DF9EF92029420C0001D896 /* TIInviteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIInviteView.h; sourceTree = "<group>"; };
+		85DF9EFA2029420C0001D896 /* TIInviteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIInviteView.m; sourceTree = "<group>"; };
+		85DF9EFB2029420C0001D896 /* TIInviteView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TIInviteView.xib; sourceTree = "<group>"; };
+		85DF9EFE2029425C0001D896 /* TISendMessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TISendMessageView.m; sourceTree = "<group>"; };
+		85DF9EFF2029425C0001D896 /* TISendMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TISendMessageView.h; sourceTree = "<group>"; };
+		85DF9F002029425C0001D896 /* TISendMessageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TISendMessageView.xib; sourceTree = "<group>"; };
+		85DF9F0F2029433E0001D896 /* UIButton+SG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+SG.h"; sourceTree = "<group>"; };
+		85DF9F102029433E0001D896 /* UIButton+SG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+SG.m"; sourceTree = "<group>"; };
+		85DF9F122029433E0001D896 /* UIView+SG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SG.m"; sourceTree = "<group>"; };
+		85DF9F132029433E0001D896 /* UIView+DefaulFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DefaulFont.h"; sourceTree = "<group>"; };
+		85DF9F142029433E0001D896 /* UIView+SG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SG.h"; sourceTree = "<group>"; };
+		85DF9F152029433E0001D896 /* UIView+DefaulFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DefaulFont.m"; sourceTree = "<group>"; };
+		85DF9F8C2029433E0001D896 /* FunctionDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunctionDefines.h; sourceTree = "<group>"; };
+		85DF9F8D2029433E0001D896 /* iPhoneVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPhoneVersion.h; sourceTree = "<group>"; };
+		85DF9F8E2029433E0001D896 /* SGDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGDefine.h; sourceTree = "<group>"; };
+		85DF9FCB202943D10001D896 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		85DF9FCC20294BBD0001D896 /* TIDeliveryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TIDeliveryView.xib; sourceTree = "<group>"; };
+		85DF9FCD20294BBD0001D896 /* TIDeliveryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIDeliveryView.h; sourceTree = "<group>"; };
+		85DF9FCE20294BBD0001D896 /* TIDeliveryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIDeliveryView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,15 +112,12 @@
 		85DF9ECA20293C060001D896 /* SGBrowserView */ = {
 			isa = PBXGroup;
 			children = (
-				85DF9ECB20293C060001D896 /* AppDelegate.h */,
-				85DF9ECC20293C060001D896 /* AppDelegate.m */,
+				85DF9F032029433E0001D896 /* SGSupport */,
+				85DF9EF8202941DE0001D896 /* Views */,
+				85DF9EF420293D650001D896 /* SGBrowserView */,
 				85DF9ECE20293C060001D896 /* ViewController.h */,
 				85DF9ECF20293C060001D896 /* ViewController.m */,
-				85DF9ED120293C060001D896 /* Main.storyboard */,
-				85DF9ED420293C070001D896 /* Assets.xcassets */,
-				85DF9ED620293C070001D896 /* LaunchScreen.storyboard */,
-				85DF9ED920293C070001D896 /* Info.plist */,
-				85DF9EDA20293C070001D896 /* main.m */,
+				85DF9EEF20293C160001D896 /* Supporting Files */,
 			);
 			path = SGBrowserView;
 			sourceTree = "<group>";
@@ -101,6 +129,94 @@
 				85DF9EE620293C070001D896 /* Info.plist */,
 			);
 			path = SGBrowserViewUITests;
+			sourceTree = "<group>";
+		};
+		85DF9EEF20293C160001D896 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				85DF9FCB202943D10001D896 /* Header.h */,
+				85DF9ECB20293C060001D896 /* AppDelegate.h */,
+				85DF9ECC20293C060001D896 /* AppDelegate.m */,
+				85DF9ED120293C060001D896 /* Main.storyboard */,
+				85DF9ED420293C070001D896 /* Assets.xcassets */,
+				85DF9ED620293C070001D896 /* LaunchScreen.storyboard */,
+				85DF9ED920293C070001D896 /* Info.plist */,
+				85DF9EDA20293C070001D896 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		85DF9EF420293D650001D896 /* SGBrowserView */ = {
+			isa = PBXGroup;
+			children = (
+				85DF9EF520293D650001D896 /* SGBrowserView.h */,
+				85DF9EF620293D650001D896 /* SGBrowserView.m */,
+			);
+			path = SGBrowserView;
+			sourceTree = "<group>";
+		};
+		85DF9EF8202941DE0001D896 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				85DF9FCD20294BBD0001D896 /* TIDeliveryView.h */,
+				85DF9FCE20294BBD0001D896 /* TIDeliveryView.m */,
+				85DF9FCC20294BBD0001D896 /* TIDeliveryView.xib */,
+				85DF9EFF2029425C0001D896 /* TISendMessageView.h */,
+				85DF9EFE2029425C0001D896 /* TISendMessageView.m */,
+				85DF9F002029425C0001D896 /* TISendMessageView.xib */,
+				85DF9EF92029420C0001D896 /* TIInviteView.h */,
+				85DF9EFA2029420C0001D896 /* TIInviteView.m */,
+				85DF9EFB2029420C0001D896 /* TIInviteView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		85DF9F032029433E0001D896 /* SGSupport */ = {
+			isa = PBXGroup;
+			children = (
+				85DF9F042029433E0001D896 /* Category */,
+				85DF9F8B2029433E0001D896 /* SGHeader */,
+			);
+			path = SGSupport;
+			sourceTree = "<group>";
+		};
+		85DF9F042029433E0001D896 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				85DF9F0E2029433E0001D896 /* UIButton */,
+				85DF9F112029433E0001D896 /* UIView */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		85DF9F0E2029433E0001D896 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				85DF9F0F2029433E0001D896 /* UIButton+SG.h */,
+				85DF9F102029433E0001D896 /* UIButton+SG.m */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		85DF9F112029433E0001D896 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				85DF9F142029433E0001D896 /* UIView+SG.h */,
+				85DF9F122029433E0001D896 /* UIView+SG.m */,
+				85DF9F132029433E0001D896 /* UIView+DefaulFont.h */,
+				85DF9F152029433E0001D896 /* UIView+DefaulFont.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		85DF9F8B2029433E0001D896 /* SGHeader */ = {
+			isa = PBXGroup;
+			children = (
+				85DF9F8C2029433E0001D896 /* FunctionDefines.h */,
+				85DF9F8D2029433E0001D896 /* iPhoneVersion.h */,
+				85DF9F8E2029433E0001D896 /* SGDefine.h */,
+			);
+			path = SGHeader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,9 +301,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85DF9EFD2029420C0001D896 /* TIInviteView.xib in Resources */,
 				85DF9ED820293C070001D896 /* LaunchScreen.storyboard in Resources */,
 				85DF9ED520293C070001D896 /* Assets.xcassets in Resources */,
 				85DF9ED320293C060001D896 /* Main.storyboard in Resources */,
+				85DF9F022029425C0001D896 /* TISendMessageView.xib in Resources */,
+				85DF9FCF20294BBD0001D896 /* TIDeliveryView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,8 +325,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				85DF9ED020293C060001D896 /* ViewController.m in Sources */,
+				85DF9EFC2029420C0001D896 /* TIInviteView.m in Sources */,
 				85DF9EDB20293C070001D896 /* main.m in Sources */,
+				85DF9FD020294BBD0001D896 /* TIDeliveryView.m in Sources */,
+				85DF9F922029433E0001D896 /* UIButton+SG.m in Sources */,
+				85DF9F012029425C0001D896 /* TISendMessageView.m in Sources */,
 				85DF9ECD20293C060001D896 /* AppDelegate.m in Sources */,
+				85DF9F932029433E0001D896 /* UIView+SG.m in Sources */,
+				85DF9EF720293D650001D896 /* SGBrowserView.m in Sources */,
+				85DF9F942029433E0001D896 /* UIView+DefaulFont.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,7 +485,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 39ZL6WT6TS;
-				INFOPLIST_FILE = SGBrowserView/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SGBrowserView/Supporting Files/Header.h";
+				INFOPLIST_FILE = "SGBrowserView/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = club.shanguo.SGBrowserView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -373,7 +501,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 39ZL6WT6TS;
-				INFOPLIST_FILE = SGBrowserView/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SGBrowserView/Supporting Files/Header.h";
+				INFOPLIST_FILE = "SGBrowserView/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = club.shanguo.SGBrowserView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
